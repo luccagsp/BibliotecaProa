@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { prisma } from '../../data/postgres';
+import prisma  from '../../data/postgres';
 import { CreateBookDto, UpdateTodoDto, PaginationDto, CustomError } from '../../domain';
 import { JwtAdapter } from '../../config';
 import { disconnect } from 'process';
